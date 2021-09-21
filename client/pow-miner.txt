@@ -1,0 +1,1 @@
+pow-miner -vv -w<Threads> -t20 EQDImbp84rsu1k1pHzCe8DeX1jA3quSbenldkWUsGxbZCYme <seed> <complexity> 999999999999999 kf8JfFUEJhhpRW80_jqD7zzQteH6EBHOzxiOhygRhBdt4z2N message.boc

@@ -17,7 +17,12 @@ def update():
 
     result = a.decode().split('result:  [ ')[1].split(']')[0]
     SEED, COMPLEXITY, *_ = map(int, result.split())
-    JSON = dumps({'seed': SEED, 'complexity': COMPLEXITY})
+    JSON = dumps({
+        'miner': 'EQDImbp84rsu1k1pHzCe8DeX1jA3quSbenldkWUsGxbZCYme',
+        'seed': SEED,
+        'complexity': COMPLEXITY,
+        'giver': 'kf8gf1PQy4u2kURl-Gz4LbS29eaN4sVdrVQkPO-JL80VhOe6'
+    })
 
 
 def auto_updater():
