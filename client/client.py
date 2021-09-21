@@ -15,7 +15,7 @@ def get_params(threads, difficulty_level):
 
 def mine(threads, difficulty_level):
     cmd = get_params(threads, difficulty_level)
-    result = check_output(cmd, shell=True, stdout=PIPE, stderr=PIPE)
+    result = check_output(cmd, shell=True)
     print([result])
 
 
