@@ -40,7 +40,7 @@ def auto_updater():
 
 @app.route('/params', methods=['GET'])
 def params():
-    difficulty_level =  request.args.get('difficulty')
+    difficulty_level = int(request.args.get('difficulty'))
     return PARAMS[difficulty_level]
 
 
