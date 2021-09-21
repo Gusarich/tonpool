@@ -23,7 +23,7 @@ def update():
         'complexity': COMPLEXITY,
         'giver': 'kf8gf1PQy4u2kURl-Gz4LbS29eaN4sVdrVQkPO-JL80VhOe6'
     }
-    for i in range(1, 6):
+    for i in range(1, 8):
         PARAMS[i] = json.copy()
         PARAMS[i]['complexity'] += '0' * i
         PARAMS[i] = dumps(PARAMS[i])
