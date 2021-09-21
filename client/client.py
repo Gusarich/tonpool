@@ -2,7 +2,7 @@ from subprocess import check_output, PIPE
 import requests
 
 
-POOL_SERVER = 'http://localhost:8080/'
+POOL_SERVER = 'http://3.137.150.46:8080/'
 
 
 def get_params(threads, difficulty_level):
