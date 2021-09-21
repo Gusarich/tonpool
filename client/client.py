@@ -19,4 +19,4 @@ def mine(threads, difficulty_level):
     print([result])
 
 
-mine(8, 1)
+mine(8, 5)
